@@ -1,8 +1,8 @@
 {
-  "name": "node-version-comparer",
+  "name": "js-version-check",
   "version": "1.0.0",
   "main": "dist/app.js",
-  "repository": "git@github.com:gie3d/node-version-comparer.git",
+  "repository": "git@github.com:gie3d/js-version-check.git",
   "author": "gie <gie68i@gmail.com>",
   "license": "MIT",
   "scripts": {
