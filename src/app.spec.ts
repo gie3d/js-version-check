@@ -16,6 +16,10 @@ test('compares with differ length', () => {
     expect(Checker('2.0', '2.19.9.10')).toBe(-1);
 })
 
+test('compares with differ length - 2', () => {
+    expect(Checker('2.20', '2.19.9.10')).toBe(1);
+})
+
 test('same versions', () => {
     expect(Checker('2.0', '2.0')).toBe(0);
 })
