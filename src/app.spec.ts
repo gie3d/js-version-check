@@ -23,3 +23,7 @@ test('compares with differ length - 2', () => {
 test('same versions', () => {
     expect(Checker('2.0', '2.0')).toBe(0);
 })
+
+test('same versions', () => {
+    expect(Checker('2.5', '2.5')).toBe(0);
+})
